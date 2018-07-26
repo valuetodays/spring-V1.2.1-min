@@ -11,11 +11,10 @@ import test.billy.springmin.bean.PersonBean;
 public class SpringFirstTest {
 
     @Test
-    public void run() {
+    public void runForIoc() {
         String[] locations = new String[] {"classpath:/spring/applicationContext-run.xml"};
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(locations);
-        // TODO do it
-        System.out.println(context);
+//        System.out.println(context);
 
         PersonBean person = (PersonBean)context.getBean("personBean", PersonBean.class);
         System.out.println(person);
