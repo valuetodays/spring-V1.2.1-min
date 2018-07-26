@@ -1,9 +1,5 @@
-package test.billy.springmin.bean;
+package com.billy.bean;
 
-/**
- * @author liulei@bshf360.com
- * @since 2018-05-17 17:39
- */
 public class PersonBean {
     private String name;
     private int age;
@@ -29,7 +25,7 @@ public class PersonBean {
         return "PersonBean{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
-                '}';
+                "}@" + hashCode();
     }
 }
 
