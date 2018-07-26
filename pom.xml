@@ -9,8 +9,13 @@
     <name>spring-V1.2.1-min</name>
 
     <properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <modules>
+        <module>original</module>
+        <module>mine</module>
+    </modules>
 
     <dependencies>
         <dependency>
@@ -57,7 +62,7 @@
             <artifactId>commons-httpclient</artifactId>
             <version>3.0</version>
         </dependency>
-         <dependency>
+        <dependency>
             <groupId>commons-dbcp</groupId>
             <artifactId>commons-dbcp</artifactId>
             <version>1.2</version>
@@ -73,8 +78,6 @@
             <artifactId>commons-collections</artifactId>
             <version>3.1</version>
         </dependency>
-
-
 
 
     </dependencies>
